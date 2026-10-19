@@ -36,19 +36,19 @@ const Navbar = () => {
       
        <div className="navbar-center hidden lg:flex">
   <ul className="menu menu-horizontal gap-5">
-    <li><a className="text-[#C2F800]">Workouts</a></li>
-    <li><a className="text-gray-400">My Plan</a></li>
+    <li><Link href="/" className="text-[#C2F800]">Workouts</Link></li>
+    <li><Link href="/my-plan" className="text-gray-400 ">My Plan</Link></li>
   </ul>
      </div>
 
 
       <div className="navbar-end gap-3">
-  <span className="bg-[#C2F800] text-black px-4 py-2 rounded-full">
-    Plan 0
-  </span>
-  <span className="border border-white/30 px-4 py-2 rounded-full">
-    Saved 0
-  </span>
+  <Link href="/my-plan" className=" text-amber-50 px-4 py-2 rounded-full">
+    Plan <span className="ml-1 w-6 h-6 bg-[#C2F800] text-black rounded-full inline-flex items-center justify-center text-xs font-bold" > 0 </span> 
+  </Link>
+  <Link href="/my-plan" className=" px-4 py-2 rounded-full">
+    Saved <span className="ml-1 w-6 h-6 bg-[#C2F800] text-black rounded-full inline-flex items-center justify-center text-xs font-bold">0</span>
+  </Link>
 </div>
 
     </div>
