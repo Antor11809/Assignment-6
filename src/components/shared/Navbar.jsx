@@ -46,7 +46,7 @@ const Navbar = () => {
   <Link href="/my-plan" className=" text-amber-50 px-4 py-2 rounded-full">
     Plan <span className="ml-1 w-6 h-6 bg-[#C2F800] text-black rounded-full inline-flex items-center justify-center text-xs font-bold" > 0 </span> 
   </Link>
-  <Link href="/my-plan" className=" px-4 py-2 rounded-full">
+  <Link href="/my-plan?tab=saved" className=" px-4 py-2 rounded-full">
     Saved <span className="ml-1 w-6 h-6 bg-[#C2F800] text-black rounded-full inline-flex items-center justify-center text-xs font-bold">0</span>
   </Link>
 </div>
