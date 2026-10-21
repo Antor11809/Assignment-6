@@ -1,23 +1,11 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-
-  basePath: "/Assignment-6",
-
-  images: {
-    unoptimized: true,
-  },
-
-  trailingSlash: true,
-
+  /* config options here */
   experimental: {
     agentFeedback: true,
   },
-
-  cacheComponents: false,
-  partialPrefetching: false,
-
+  cacheComponents: true,
+  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
@@ -29,4 +17,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
