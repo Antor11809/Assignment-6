@@ -8,7 +8,7 @@ const AddToPlanButton = ({workout}) => {
 
     const handleAdd = () => {
         console.log("Clicked", workout);
-        toast.success(`you have Succesfully added ${workout.name}`)
+        toast.success(`you have Succesfully added the workout ${workout.name}`)
         setTodayPlan([...todayPlan, workout])
        
     }

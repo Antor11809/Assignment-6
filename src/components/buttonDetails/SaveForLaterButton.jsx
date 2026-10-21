@@ -13,10 +13,10 @@ const SaveForLaterButton = ({workout}) => {
        
     }
     return (
-            <button className="bg-blue-900 border border-amber-300 text-white px-4 py-2 rounded-lg text-xs font-bold hover:bg-[#05043f] transition"
+            <button className="bg-emerald-950 t border border-cyan-500 text-amber-400 px-4 py-2 rounded-lg text-xs font-bold hover:bg-[#0f3a16] transition"
             onClick={() => handleSaveForLater()}
             >
-             Saved For Later
+             📌 Saved For Later
             </button>
     );
 };

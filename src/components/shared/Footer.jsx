@@ -12,7 +12,7 @@ const Footerpage = () => {
       <p className='font-bold'>FITLOG</p>
     </div>
 
-    <div className="text-gray-400 text-sm text-center md:text-right text-mist-600 font-light">
+    <div className="text-gray-400 text-sm text-center md:text-right text-mist-500 font-light">
       © 2026 FitLog-Workout Library. Train Hard, Log Honest.
     </div>
 
