@@ -1,5 +1,6 @@
 
 import React, { Suspense } from "react";
+import { unstable_rethrow } from "next/navigation";
 import WorkoutCard from "../shared/WorkoutCard";
 
 const gymItems = async () => {
@@ -12,7 +13,9 @@ const gymItems = async () => {
 
     const data = await res.json();
     return data;
+
   } catch (error) {
+    unstable_rethrow(error);
     console.error("API Error:", error);
     return [];
   }
